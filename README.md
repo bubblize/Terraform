@@ -6,18 +6,43 @@ A new Terraform Repo
 # Azure Infrastuction creating tool
 
 
-this is a update
+
 
 
 ## Usage
 
 
-
-### Example
-
+Clone the repository to your local machine or environment:
 
 
-### Example
+git clone https://github.com/bubblize/Terraform.git
+
+you need to make a new file called terraform.tfvars and past in your public key.
+
+you can generate a ssl key with this command:
+ssh-keygen -t rsa -b 4096 -f
+ make sure your in the folder where you can create the file.
+
+ then copy the publix key like this formate: 
+
+ ssh_public_key = "Public Key"
+
+ then you type the command.
+
+
+
+terraform plan -out=tfplan
+terraform apply "tfplan"
+
+you should then have a working Azure Infrastuction with 2 VM sql and a web page running flask with a loadbalancer. 
+
+
+
+
+
+
+
+
 
 
 
