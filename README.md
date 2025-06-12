@@ -54,20 +54,19 @@ you should then have a working Azure Infrastuction with 2 VM sql and a web page 
 
 The following requirements are needed by this module:
 
-- <a name="terraform.tfvars file"></a> 
+- Terraform.tfvars file
 
-- <a name="public ssl key"></a> 
-
-
+- SSL public Key
 
 
 
-<!-- markdownlint-disable MD013 -->
-## Required Inputs
 
-The following input variables are required:
 
-Version:
+
+
+
+
+
 
 <!-- markdownlint-disable-next-line MD041 -->
 ## Data Collection
