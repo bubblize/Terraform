@@ -23,9 +23,12 @@ you can generate a ssl key with this command:
 ssh-keygen -t rsa -b 4096 -f
  make sure your in the folder where you can create the file.
 
- then copy the publix key like this formate: 
+ then copy the public key like this formate: 
 
  ssh_public_key = "Public Key"
+
+ store then it in the file called terraform.tfvars
+ 
 
  then you type the command.
 
